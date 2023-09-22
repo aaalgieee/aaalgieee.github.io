@@ -1,0 +1,145 @@
+.freelance-video-editor {
+    margin: 0;
+  }
+  .currently-studying-at,
+  .freelance-video-editor-container,
+  .university-of-the {
+    position: absolute;
+    top: 209px;
+    left: 0;
+    display: inline-block;
+    width: 258px;
+    height: 192px;
+  }
+  .currently-studying-at,
+  .university-of-the {
+    top: 407px;
+    width: 163px;
+    height: 21px;
+  }
+  .university-of-the {
+    left: 213px;
+    text-decoration: underline;
+    width: 337px;
+  }
+  .aaa,
+  .lgi {
+    display: flex;
+    align-items: center;
+    height: 58px;
+  }
+  .aaa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.3em;
+    width: 182px;
+    -webkit-text-stroke: 1px #a9b4c2;
+  }
+  .lgi {
+    top: 58px;
+    letter-spacing: 0.46em;
+  }
+  .aaa-parent,
+  .body-inner,
+  .eee,
+  .lgi {
+    position: absolute;
+    left: 0;
+    width: 182px;
+  }
+  .eee {
+    top: 116px;
+    letter-spacing: 0.44em;
+    display: flex;
+    align-items: center;
+    height: 58px;
+  }
+  .aaa-parent,
+  .body-inner {
+    top: 0;
+    height: 174px;
+  }
+  .body-inner {
+    font-size: var(--font-size-45xl);
+  }
+  .uic-logo2-1-icon {
+    position: absolute;
+    top: 395px;
+    left: 163px;
+    width: 50px;
+    height: 44px;
+    object-fit: cover;
+  }
+  .body {
+    position: absolute;
+    top: 343px;
+    left: 200px;
+    width: 550px;
+    height: 439px;
+  }
+  .about,
+  .work {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .work {
+    position: absolute;
+    left: 67px;
+    width: 53px;
+    height: 18px;
+  }
+  .about {
+    left: 142px;
+    font-weight: 300;
+    width: 61px;
+  }
+  .about,
+  .navbar,
+  .resume {
+    position: absolute;
+    height: 18px;
+  }
+  .resume {
+    top: 0;
+    left: 225px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+  }
+  .navbar {
+    top: 50px;
+    left: 772px;
+    width: 302px;
+    text-align: center;
+    font-size: var(--font-size-xl);
+  }
+  .guide-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1330px;
+    height: 832px;
+    overflow-y: auto;
+    display: none;
+  }
+  .homepage {
+    position: relative;
+    background-color: #1c2321;
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-lightsteelblue);
+    font-family: var(--font-rubik);
+  }
+.work,
+.about,
+.resume{
+  text-decoration: none;
+}

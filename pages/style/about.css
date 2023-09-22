@@ -1,0 +1,191 @@
+.i-like-expanding {
+    margin: 0;
+  }
+  .experience,
+  .i-like-expanding-container {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: inline-block;
+    width: 229px;
+    height: 180px;
+  }
+  .experience {
+    top: 0;
+    font-size: var(--font-size-4xl);
+    width: 208px;
+    height: 25px;
+  }
+  .skills {
+    position: absolute;
+    top: 435px;
+    left: 217px;
+    width: 229px;
+    height: 210px;
+  }
+  .gabaaalgieeexyz {
+    margin: 0;
+    font-weight: 300;
+  }
+  .contact1,
+  .email-gabaaalgieeexyz-social-container {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    display: inline-block;
+    width: 229px;
+    height: 51px;
+  }
+  .contact1 {
+    top: 0;
+    font-size: var(--font-size-4xl);
+    width: 98px;
+    height: 25px;
+  }
+  .contact {
+    position: absolute;
+    top: 645px;
+    left: 217px;
+    width: 229px;
+    height: 79px;
+  }
+  .education1,
+  .university-of-the-container {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: inline-block;
+    width: 207px;
+    height: 180px;
+  }
+  .education1 {
+    top: 0;
+    font-size: var(--font-size-4xl);
+    width: 122px;
+    height: 25px;
+  }
+  .education {
+    position: absolute;
+    top: 435px;
+    left: 534px;
+    width: 207px;
+    height: 210px;
+  }
+  .affiliations,
+  .google-developer-student-container {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    display: inline-block;
+    width: 207px;
+    height: 180px;
+  }
+  .affiliations {
+    top: 0;
+    font-size: var(--font-size-4xl);
+    width: 131px;
+    height: 25px;
+  }
+  .experience1 {
+    position: absolute;
+    top: 431px;
+    left: 851px;
+    width: 207px;
+    height: 214px;
+  }
+  .heavily-indulged-in {
+    font-family: var(--font-rubik);
+  }
+  .i-am-al-container {
+    position: absolute;
+    top: 0;
+    left: 267px;
+    display: inline-block;
+    width: 515px;
+    height: 317px;
+  }
+  .me-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width: 246px;
+    height: 315px;
+    object-fit: cover;
+  }
+  .hero {
+    position: absolute;
+    top: 101px;
+    left: 200px;
+    width: 782px;
+    height: 317px;
+    font-size: var(--font-size-xl);
+  }
+  .about1,
+  .work {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .work {
+    position: absolute;
+    left: 67px;
+    font-weight: 300;
+    width: 53px;
+    height: 18px;
+  }
+  .about1 {
+    left: 142px;
+    width: 61px;
+  }
+  .about1,
+  .navbar,
+  .resume {
+    position: absolute;
+    height: 18px;
+  }
+  .resume {
+    top: 0;
+    left: 225px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77px;
+  }
+  .navbar {
+    top: 50px;
+    left: 778px;
+    width: 302px;
+    display: none;
+    text-align: center;
+    font-size: var(--font-size-xl);
+  }
+  .guide-icon,
+  .homepage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 832px;
+  }
+  .guide-icon {
+    width: 1330px;
+    overflow-y: auto;
+    display: none;
+  }
+  .homepage {
+    background-color: #1c2321;
+    width: 1280px;
+    overflow: hidden;
+  }
+  .about {
+    position: relative;
+    width: 100%;
+    height: 2680px;
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-lightsteelblue);
+    font-family: var(--font-rubik);
+  }
+  

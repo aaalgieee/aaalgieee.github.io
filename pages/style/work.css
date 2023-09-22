@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-gainsboro: #d9d9d9;
+    --color-lightsteelblue: #a9b4c2;
+  
+    /* Border radiuses */
+    --br-mini: 15px;
+  }
+  .myuic-neo {
+    top: 0;
+    display: inline-block;
+    width: 102.2px;
+  }
+  .description,
+  .myuic-neo,
+  .text {
+    position: absolute;
+    left: 0;
+    height: 14.58px;
+  }
+  .description {
+    top: 19.14px;
+    font-weight: 300;
+    display: none;
+    width: 137.2px;
+  }
+  .text {
+    top: 141.28px;
+    width: 102.2px;
+  }
+  .work5,
+  .work6,
+  .work6-child {
+    position: absolute;
+    width: 350px;
+  }
+  .work6-child {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-gainsboro);
+    height: 136.72px;
+  }
+  .work5,
+  .work6 {
+    top: 80px;
+    left: 262px;
+    height: 155.86px;
+  }
+  .work5 {
+    left: 667px;
+  }
+  .description2,
+  .financial-tracker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 152px;
+    height: 15px;
+  }
+  .description2 {
+    top: 19.42px;
+    font-weight: 300;
+    display: none;
+    width: 137.2px;
+    height: 14.58px;
+  }
+  .text2,
+  .work4 {
+    position: absolute;
+    top: 141px;
+    left: 0;
+    width: 152px;
+    height: 15px;
+  }
+  .work4 {
+    top: 328px;
+    left: 262px;
+    width: 350px;
+    height: 156px;
+  }
+  .davies-burger,
+  .header-1,
+  .text3,
+  .work3 {
+    position: absolute;
+    left: 0;
+    width: 137px;
+    height: 15px;
+  }
+  .davies-burger {
+    top: 0;
+    display: inline-block;
+  }
+  .header-1,
+  .text3,
+  .work3 {
+    top: 141px;
+  }
+  .header-1,
+  .work3 {
+    top: 328px;
+    left: 667px;
+    width: 350px;
+    height: 156px;
+  }
+  .header-1 {
+    top: 0;
+    left: 0;
+    display: none;
+    width: 102.2px;
+    height: 14.58px;
+  }
+  .text4,
+  .work2 {
+    position: absolute;
+    top: 141.28px;
+    left: 0;
+    width: 0;
+    height: 0;
+  }
+  .work2 {
+    top: 576px;
+    left: 262px;
+    width: 350px;
+    height: 141.28px;
+    display: none;
+  }
+  .text5,
+  .wine-festival-schedule,
+  .work1 {
+    position: absolute;
+    left: 0;
+    width: 193px;
+    height: 15px;
+  }
+  .wine-festival-schedule {
+    top: 0;
+    display: inline-block;
+  }
+  .text5,
+  .work1 {
+    top: 141px;
+  }
+  .work1 {
+    top: 576px;
+    left: 667px;
+    width: 350px;
+    height: 156px;
+  }
+  .guide-icon,
+  .work {
+    height: 832px;
+    overflow-y: auto;
+  }
+  .guide-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1330px;
+    display: none;
+  }
+  .work {
+    position: relative;
+    background-color: #1c2321;
+    width: 100%;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-lightsteelblue);
+    font-family: var(--font-rubik);
+  }
+    

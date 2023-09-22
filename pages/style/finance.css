@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-3xs: 10px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-whitesmoke: #eef1ef;
+  --color-gainsboro: #d9d9d9;
+  --color-black: #000;
+  --color-dimgray: #5e6572;
+  --color-lightslategray: #7d98a1;
+  --color-lightsteelblue: #a9b4c2;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+  --br-mini: 15px;
+  --br-8xs: 5px;
+}
+
+
+.guide-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1330px;
+    height: 832px;
+    overflow-y: auto;
+    display: none;
+  }
+  .financial-tracker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 18px;
+  }
+  .hamburger-child,
+  .hamburger-inner,
+  .hamburger-item {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 13px);
+    border-radius: var(--br-8xs);
+    background-color: var(--color-lightsteelblue);
+    width: 26px;
+    height: 1.78px;
+  }
+  .hamburger-inner,
+  .hamburger-item {
+    top: calc(50% - 0.89px);
+  }
+  .hamburger-inner {
+    top: calc(50% + 6.22px);
+  }
+  .hamburger,
+  .navbar {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 780.5px);
+    width: 26px;
+    height: 16px;
+  }
+  .navbar {
+    top: calc(50% - 351px);
+    left: calc(50% + 259px);
+    width: 181px;
+    height: 18px;
+    color: var(--color-lightsteelblue);
+  }
+  .balance-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-lightslategray);
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.25);
+    width: 325px;
+    height: 82px;
+  }
+  .ioneye-1-icon {
+    position: absolute;
+    top: 16px;
+    left: 237px;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+  }
+  .available-balance,
+  .php-8200000 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+  }
+  .available-balance {
+    top: 15px;
+    left: 16px;
+    letter-spacing: 0.25em;
+    font-weight: 300;
+    width: 213px;
+  }
+  .php-8200000 {
+    top: 48px;
+    left: 5px;
+    font-size: 35px;
+    font-weight: 500;
+    width: 278px;
+  }
+  .ionaddcircleoutline-1-icon {
+    position: absolute;
+    top: 43px;
+    left: 283px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .balance,
+  .history-child {
+    position: absolute;
+    top: 57px;
+    left: 53px;
+    width: 325px;
+    height: 82px;
+  }
+  .history-child {
+    top: -4px;
+    left: -4px;
+    border-radius: var(--br-mini);
+    width: 333px;
+    height: 469px;
+  }
+  .transaction-history {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    font-size: var(--font-size-xl);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    width: 278px;
+    height: 18px;
+  }
+  .cashin-from-bdo,
+  .merchant-preauth,
+  .online-payment {
+    position: absolute;
+    top: 56px;
+    left: 27px;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 18px;
+  }
+  .cashin-from-bdo,
+  .online-payment {
+    top: 102px;
+  }
+  .online-payment {
+    top: 148px;
+  }
+  .sep-11-2023,
+  .sep-15-2023 {
+    left: 27px;
+    font-size: var(--font-size-3xs);
+    font-weight: 300;
+  }
+  .sep-11-2023 {
+    position: absolute;
+    top: 74px;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 18px;
+  }
+  .sep-15-2023 {
+    top: 120px;
+  }
+  .div,
+  .div1,
+  .div2,
+  .sep-14-2023,
+  .sep-15-2023 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 18px;
+  }
+  .sep-14-2023 {
+    top: 166px;
+    left: 27px;
+    font-size: var(--font-size-3xs);
+    font-weight: 300;
+  }
+  .div,
+  .div1,
+  .div2 {
+    top: 56px;
+    left: 157px;
+    text-align: right;
+  }
+  .div1,
+  .div2 {
+    top: 102px;
+  }
+  .div2 {
+    top: 148px;
+  }
+  .button-child,
+  .history-item {
+    position: absolute;
+    top: 40.5px;
+    left: 17px;
+    width: 289px;
+    height: 1px;
+  }
+  .button-child {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-lightslategray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 179px;
+    height: 28px;
+  }
+  .button,
+  .request-transaction-history {
+    position: absolute;
+    top: 8px;
+    left: 24px;
+  }
+  .button {
+    top: 421px;
+    left: 72px;
+    width: 179px;
+    height: 28px;
+    text-align: center;
+    font-size: var(--font-size-3xs);
+    color: #fff;
+  }
+  .history {
+    position: absolute;
+    top: 164px;
+    left: 53px;
+    width: 325px;
+    height: 461px;
+    text-align: left;
+  }
+  .account-history {
+    position: absolute;
+    top: 101px;
+    left: 209px;
+    width: 431px;
+    height: 681px;
+    overflow: hidden;
+    font-size: var(--font-size-mini);
+  }
+  .charts-child {
+    position: absolute;
+    top: 339px;
+    left: 16px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-dimgray);
+    width: 399px;
+    height: 286px;
+  }
+  .goals {
+    position: absolute;
+    top: 354px;
+    left: 38px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    width: 278px;
+    height: 18px;
+  }
+  .monthly-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-mini);
+    background-color: var(--color-dimgray);
+    width: 399px;
+    height: 255px;
+  }
+  .monthly-progress {
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    width: 278px;
+    height: 18px;
+  }
+  .monthly-child1,
+  .monthly-child2,
+  .monthly-child3,
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6,
+  .monthly-inner,
+  .monthly-item,
+  .rectangle-div {
+    position: absolute;
+    top: 53px;
+    left: 34px;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-gainsboro);
+    border: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    width: 19px;
+    height: 180px;
+  }
+  .monthly-child1,
+  .monthly-child2,
+  .monthly-child3,
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6,
+  .monthly-inner,
+  .rectangle-div {
+    top: 95px;
+    left: 73px;
+    height: 138px;
+  }
+  .monthly-child1,
+  .monthly-child2,
+  .monthly-child3,
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6,
+  .rectangle-div {
+    top: 67px;
+    left: 112px;
+    height: 166px;
+  }
+  .monthly-child1,
+  .monthly-child2,
+  .monthly-child3,
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6 {
+    top: 165px;
+    left: 151px;
+    height: 68px;
+  }
+  .monthly-child2,
+  .monthly-child3,
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6 {
+    top: 100px;
+    left: 190px;
+    height: 133px;
+  }
+  .monthly-child3,
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6 {
+    top: 148px;
+    left: 229px;
+    height: 85px;
+  }
+  .monthly-child4,
+  .monthly-child5,
+  .monthly-child6 {
+    top: 53px;
+    left: 268px;
+    height: 180px;
+  }
+  .monthly-child5,
+  .monthly-child6 {
+    top: 135px;
+    left: 307px;
+    height: 98px;
+  }
+  .monthly-child6 {
+    top: 203px;
+    left: 346px;
+    height: 30px;
+  }
+  .div3,
+  .monthly {
+    position: absolute;
+    top: 55px;
+    left: 16px;
+    width: 399px;
+    height: 255px;
+  }
+  .div3 {
+    top: 584px;
+    left: 77px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 278px;
+    height: 18px;
+  }
+  .charts,
+  .charts-item {
+    position: absolute;
+    top: 385px;
+    left: 119px;
+    width: 193.51px;
+    height: 193.51px;
+  }
+  .charts {
+    top: 101px;
+    left: 640px;
+    width: 431px;
+    height: 681px;
+    overflow: hidden;
+    text-align: left;
+  }
+  .finance {
+    position: relative;
+    background-color: #1c2321;
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-whitesmoke);
+    font-family: var(--font-rubik);
+  }
+  

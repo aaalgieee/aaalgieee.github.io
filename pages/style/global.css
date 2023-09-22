@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-4xl: 23px;
+    --font-size-3xs: 10px;
+  
+    /* Colors */
+    --color-lightsteelblue: #a9b4c2;
+  }
+  
